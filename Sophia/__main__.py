@@ -76,9 +76,9 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = f"""
-𝐇𝐞𝐥𝐥𝐨, \n 𝗜'𝗺 𝗦𝗼𝗽𝗵𝗶𝗮 
-𝗜'𝗺 𝗛𝗲𝗿𝗲 𝘁𝗼 𝗵𝗲𝗹𝗽 𝘆𝗼𝘂𝗿 𝗚𝗿𝗼𝘂𝗽𝘀! 𝗛𝗶𝘁 /help [️️ ️](https://telegra.ph/file/583b241199a6c0c0fa38c.jpg)
-Project By @DihanOfficial ❤
+𝐇𝐞𝐥𝐥𝐨, \n 𝗜'𝗺 ✨ 𝐍𝐞𝐭𝐮𝐤𝐢 ✨ 
+𝗜'𝗺 𝗛𝗲𝗿𝗲 𝘁𝗼 𝗵𝗲𝗹𝗽 𝘆𝗼𝘂𝗿 𝗚𝗿𝗼𝘂𝗽𝘀! 𝗛𝗶𝘁 /help [️️ ️](https://telegra.ph/file/363c5b68fdcb6f9344747.png)
+Project By @NM_rider ❤
 """
 
 buttons = [
@@ -93,9 +93,9 @@ buttons = [
         ),
     ],
     [
-        InlineKeyboardButton(text="🙋‍♀️ Sophia News", url=f"https://t.me/dihanofficial"),
+        InlineKeyboardButton(text="🙋‍♀️ Netuki News", url=f"https://t.me/NM_bots"),
         InlineKeyboardButton(
-            text="💬 Support Group", url=f"https://t.me/dihan_official"
+            text="💬 Support Group", url=f"https://t.me/NM_Bot_s"
         ),
     ],
     [
@@ -105,14 +105,14 @@ buttons = [
 
 
 HELP_STRINGS = """
-`Hi.. I'm` 𝗦𝗼𝗽𝗵𝗶𝗮 
+`Hi.. I'm` 𝐍𝐞𝐭𝐮𝐤𝐢
 Click On The Buttons Below To Get Documentation About Specific Modules..
-Powered by @dihanofficial 💓 [️️ ️](https://telegra.ph/file/583b241199a6c0c0fa38c.jpg) """
+Powered by @NM_rider 💓 [️️ ️](https://telegra.ph/file/363c5b68fdcb6f9344747.png) """
 
 
 DONATE_STRING = """Hey, glad to hear you want to donate!
- You can support the project Of [Dihan Randila](t.me/dihanrandila) \
- Supporting isnt always financial! [Dihan Official](t.me/dihanofficial) \
+ You can support the project Of [Nadun malaka](t.me/NM_eider) \
+ Supporting isnt always financial! [Nadun malaka](t.me/NM_rider) \
  Those who cannot provide monetary support are welcome to help us develop the bot at ."""
 
 IMPORTED = {}
@@ -358,7 +358,7 @@ def sophia_about_callback(update, context):
     query = update.callback_query
     if query.data == "sophia_":
         query.message.edit_text(
-            text=""" ℹ️ I'm *Sophia*, a powerful group management bot built to help you manage your group easily.
+            text=""" ℹ️ I'm *Netuki*, a powerful group management bot built to help you manage your group easily.
                  \n* I can restrict users.
                  \n* I can greet users with customizable welcome messages and even set a group's rules.
                  \n* I have an advanced anti-flood system.
@@ -399,8 +399,8 @@ def Source_about_callback(update, context):
     query = update.callback_query
     if query.data == "source_":
         query.message.edit_text(
-            text=""" Hi..😍 I'm *Sophia*
-                 \nHere is the [Source Code](https://github.com/dihanofficial/Sophia) .""",
+            text=""" Hi..😍 I'm *Netuki*
+                 \nHere is the [Source Code](No) .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
